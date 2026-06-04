@@ -5,6 +5,7 @@ on:
     branches: [dev, test, main]
     paths:
       - 'cft/**'          # 👈 trigger ONLY if this folder changes
+  workflow_dispatch:      # Allows you to manually click "Run workflow" in GitHub UI
 
 env:
   AWS_REGION: us-west-2
