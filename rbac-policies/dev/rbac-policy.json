@@ -1,0 +1,12 @@
+{
+  "roles": {
+    "ADMIN": {
+      "permissions": ["*"]
+    },
+    "BOARDMEMBER": {
+      "permissions": [
+        "GET:/users"
+      ]
+    }
+  }
+}
